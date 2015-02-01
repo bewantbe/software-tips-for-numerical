@@ -3388,7 +3388,7 @@ status open
 
 \begin_layout Plain Layout
 
-A=Table[f[i,j],{i,n},{j,n}]
+A=Table[f[i,j],{i,n},{j,m}]
 \end_layout
 
 \end_inset
@@ -3411,12 +3411,12 @@ status open
 
 \begin_layout Plain Layout
 
-SetPrecision[1.0/3, 40]
+In[1]:= SetPrecision[1.0/3, 40]
 \end_layout
 
 \begin_layout Plain Layout
 
-0.3333333333333333148296162562473909929395
+Out[1]= 0.3333333333333333148296162562473909929395
 \end_layout
 
 \end_inset
@@ -3435,12 +3435,12 @@ status open
 
 \begin_layout Plain Layout
 
-SetPrecision[1/3, 40] == N[1/3, 40]
+In[1]:= SetPrecision[1/3, 40] == N[1/3, 40]
 \end_layout
 
 \begin_layout Plain Layout
 
-True
+Out[1]= True
 \end_layout
 
 \end_inset
@@ -3459,12 +3459,22 @@ status open
 
 \begin_layout Plain Layout
 
-16^^FF.F`20
+In[1]:= 16^^FF.F`20
 \end_layout
 
 \begin_layout Plain Layout
 
-255.937500000000000000000
+Out[1]= 255.937500000000000000000
+\end_layout
+
+\begin_layout Plain Layout
+
+In[2]:= 16^^F.FF`20*^1
+\end_layout
+
+\begin_layout Plain Layout
+
+Out[2]= 255.937500000000000000000
 \end_layout
 
 \end_inset
