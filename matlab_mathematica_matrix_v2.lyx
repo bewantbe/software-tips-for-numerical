@@ -3498,5 +3498,23 @@ Input Syntax
 http://reference.wolfram.com/language/tutorial/InputSyntax.html
 \end_layout
 
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Find this documentation in 
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/bewantbe/software-tips-for-numerical"
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
